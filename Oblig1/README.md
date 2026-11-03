@@ -1,4 +1,3 @@
-```markdown
 # Assignment 1 — Data Structures and Trees
 
 Four exercises covering binary search trees, a triple-ended queue, tree traversal and insertion orders for balanced search trees.
@@ -29,7 +28,6 @@ Oblig1/
 ├── IN2010-innleveringsoppgave1.txt
 ├── oppgavebeskrivelse.pdf
 └── README.md
-```
 
 ## Exercise 1 — Set Operations
 
