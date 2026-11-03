@@ -1,4 +1,3 @@
-```markdown
 # Assignment 1 — Data Structures and Trees
 
 Four exercises covering binary search trees, a triple-ended queue, tree traversal and insertion orders for balanced search trees.
@@ -97,4 +96,3 @@ See [IN2010-innleveringsoppgave1.txt](./IN2010-innleveringsoppgave1.txt) for the
 **Author:** Frida Berge (`fridatbe`)
 
 Assignment instructions were provided by the course. The teque and kitten exercises are based on Kattis problems.
-```
