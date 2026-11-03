@@ -28,14 +28,12 @@ The required performance is expected amortized constant time for membership chec
 | [input/](./Oblig4/input/) | Example and test inputs |
 | [output/](./Oblig4/output/) | Corresponding expected outputs |
 | [oppgavebeskrivelse.pdf](./oppgavebeskrivelse.pdf) | Assignment instructions |
-| [innleveringsoppgave4.pdf](./innleveringsoppgave4.pdf) | Additional copy of the assignment instructions |
 
 ## Folder Structure
 
 ```text
 Oblig4/
 ├── README.md
-├── innleveringsoppgave4.pdf
 ├── oppgavebeskrivelse.pdf
 └── Oblig4/
     ├── AapenHashing.java
