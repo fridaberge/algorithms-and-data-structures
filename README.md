@@ -1,6 +1,6 @@
 # Algorithms and Data Structures
 
-Coursework exploring trees, queues, sorting and hashing for **IN2010 — Algorithms and Data Structures** at the **University of Oslo**.
+Coursework exploring sets, trees, queues, sorting, hashing and complexity analysis for **IN2010 — Algorithms and Data Structures** at the **University of Oslo**.
 
 The repository contains source code, assignment briefs, datasets, test files and written submissions.
 
@@ -10,7 +10,7 @@ The repository contains source code, assignment briefs, datasets, test files and
 
 | Assignment | Topics | Documentation |
 | --- | --- | --- |
-| [Assignment 0](./Oblig0/) | See assignment files | — |
+| [Assignment 0](./Oblig0/) | Set operations, binary search on linked lists and complexity analysis | [README](./Oblig0/README.md) |
 | [Assignment 1](./Oblig1/) | Binary search trees, teque, tree paths and balanced insertion orders | [README](./Oblig1/README.md) |
 | [Assignment 2](./Oblig2/) | Sorting algorithms, operation counting and performance experiments | [README](./Oblig2/README.md) |
 | [Assignment 4](./Oblig4/) | Hash-based sets, membership checks, insertion and removal | [README](./Oblig4/README.md) |
@@ -21,7 +21,9 @@ The repository contains source code, assignment briefs, datasets, test files and
 algorithms-and-data-structures/
 ├── README.md
 ├── Oblig0/
+│   └── README.md
 ├── Oblig1/
+│   ├── README.md
 │   ├── Oppgave1/
 │   ├── Oppgave2/
 │   ├── Oppgave3/
@@ -29,12 +31,14 @@ algorithms-and-data-structures/
 │   ├── IN2010-innleveringsoppgave1.txt
 │   └── oppgavebeskrivelse.pdf
 ├── Oblig2/
+│   ├── README.md
 │   ├── Oblig2/
 │   │   ├── Java source files
 │   │   ├── Input datasets
 │   │   └── IN2010-innlevering2.pdf
 │   └── oppgavebeskrivelse.pdf
 └── Oblig4/
+    ├── README.md
     ├── Oblig4/
     │   ├── Java source files
     │   ├── input/
@@ -42,9 +46,18 @@ algorithms-and-data-structures/
     └── Assignment briefs
 ```
 
-The READMEs for assignments 1, 2 and 4 provide file descriptions and further instructions.
+This overview shows the main folders and selected files rather than a complete file listing. Each assignment has its own README with further details.
 
-## Assignment 0
+## Assignment 0 — Sets and Complexity Analysis
+
+An introductory assignment exploring:
+
+- Set operations: `contains`, `insert`, `remove` and `size`.
+- Intentionally inefficient implementations to understand linear-time operations.
+- Worst-case analysis of binary search on a sorted linked list.
+- How indexed-access costs affect an algorithm’s running time.
+
+The written submission covers the binary-search analysis. The assignment brief also describes the set implementation exercise; see the folder README for the scope of the available material.
 
 [View Assignment 0 →](./Oblig0/)
 
@@ -110,7 +123,7 @@ java AapenHashing < input/example > actual_example.txt
 diff output/example actual_example.txt
 ```
 
-See the individual assignment READMEs for input formats, source locations and available execution instructions.
+See each assignment's README for its input format, source locations and available execution instructions.
 
 ## Documentation and Scope
 
@@ -126,4 +139,4 @@ Compiled `.class` files can be regenerated from the Java sources.
 
 Completed for **IN2010 — Algorithms and Data Structures**, University of Oslo.
 
-Assignment instructions, starter material and supporting datasets were provided by the course. Individual folders contain the source files, submissions and documentation associated with the exercises.
+Assignment instructions, starter material and supporting datasets were provided by the course. Individual folders contain the available source files, submissions and documentation associated with the exercises.
