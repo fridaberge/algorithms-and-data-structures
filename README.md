@@ -1,16 +1,18 @@
 # Algorithms and Data Structures
 
-Coursework exploring trees, queues, sorting, graph algorithms and hashing for **IN2010 — Algorithms and Data Structures** at the **University of Oslo**.
+Coursework exploring trees, queues, sorting and hashing for **IN2010 — Algorithms and Data Structures** at the **University of Oslo**.
 
 The repository contains source code, assignment briefs, datasets, test files and written submissions.
+
+> **Missing assignment:** This repository contains assignments 0–2 and 4. Assignment 3 covered graphs and pathfinding, but its files are no longer available and are therefore not included.
 
 ## Assignments
 
 | Assignment | Topics | Documentation |
 | --- | --- | --- |
+| [Assignment 0](./Oblig0/) | See assignment files | — |
 | [Assignment 1](./Oblig1/) | Binary search trees, teque, tree paths and balanced insertion orders | [README](./Oblig1/README.md) |
 | [Assignment 2](./Oblig2/) | Sorting algorithms, operation counting and performance experiments | [README](./Oblig2/README.md) |
-| [Assignment 3](./Oblig3/) | IMDb graph construction, shortest paths, weighted paths and connected components | [README](./Oblig3/README.md) |
 | [Assignment 4](./Oblig4/) | Hash-based sets, membership checks, insertion and removal | [README](./Oblig4/README.md) |
 
 ## Repository Structure
@@ -18,6 +20,7 @@ The repository contains source code, assignment briefs, datasets, test files and
 ```text
 algorithms-and-data-structures/
 ├── README.md
+├── Oblig0/
 ├── Oblig1/
 │   ├── Oppgave1/
 │   ├── Oppgave2/
@@ -31,11 +34,6 @@ algorithms-and-data-structures/
 │   │   ├── Input datasets
 │   │   └── IN2010-innlevering2.pdf
 │   └── oppgavebeskrivelse.pdf
-├── Oblig3/
-│   ├── Actor and movie datasets
-│   ├── Graph reference documents
-│   ├── Hashing source files
-│   └── oppgavebeskrivelse.pdf
 └── Oblig4/
     ├── Oblig4/
     │   ├── Java source files
@@ -44,7 +42,11 @@ algorithms-and-data-structures/
     └── Assignment briefs
 ```
 
-Each assignment has its own README with file descriptions and further instructions.
+The READMEs for assignments 1, 2 and 4 provide file descriptions and further instructions.
+
+## Assignment 0
+
+[View Assignment 0 →](./Oblig0/)
 
 ## Assignment 1 — Data Structures and Trees
 
@@ -73,21 +75,6 @@ The assignment checks sorted output and measures comparisons, swaps and executio
 The [submitted report](./Oblig2/Oblig2/IN2010-innlevering2.pdf) documents the counting conventions, experiments and charts.
 
 [View Assignment 2 →](./Oblig2/)
-
-## Assignment 3 — Graph Algorithms with IMDb Data
-
-The assignment explores an actor graph where movies connect actors who appeared together.
-
-Tasks include:
-
-- Constructing the graph from TSV files.
-- Finding shortest paths between actors.
-- Finding minimum-weight paths using movie ratings.
-- Counting connected components by size.
-
-The folder contains actor and movie datasets, smaller Marvel datasets, graph reference documents and hashing-related Java files. A runnable implementation of all graph tasks is not established by the available file listing.
-
-[View Assignment 3 →](./Oblig3/)
 
 ## Assignment 4 — Sets with Hashing
 
@@ -123,7 +110,7 @@ java AapenHashing < input/example > actual_example.txt
 diff output/example actual_example.txt
 ```
 
-See each assignment's README for its input format, source locations and available execution instructions.
+See the individual assignment READMEs for input formats, source locations and available execution instructions.
 
 ## Documentation and Scope
 
@@ -132,10 +119,6 @@ This repository preserves coursework and supporting material rather than providi
 Assignment briefs describe the required tasks; they do not by themselves establish that every task is implemented. Written reports and archived results document the original submissions, not independently verified correctness or performance.
 
 Compiled `.class` files can be regenerated from the Java sources.
-
-## Dataset Usage
-
-The IMDb-based dataset supplied for Assignment 3 is restricted to learning purposes according to the assignment brief. Consult that document and applicable IMDb terms before reuse.
 
 ## Author and Attribution
 
